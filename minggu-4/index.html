@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KRSBX</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="css/style.css" rel="stylesheet" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img
+          src="https://github.com/krsbx/krsbx.github.io/blob/main/Build%20Assets/React/src/Component/Pictures/profile.jpg?raw=true"
+          width="150"
+          height="150"
+          alt="Profile Pict"
+        />
+        <div class="information" data-info>
+          <h1>Muhammad Firdaus Sati!</h1>
+          <p>
+            Full Stack Developer
+            <a href="https://upscalix.com.au/"><code>@Upscalix</code></a>
+          </p>
+        </div>
+      </div>
+      <ul class="navigation">
+        <li>
+          <a href="#about-me">About Me</a>
+        </li>
+        <li>
+          <a href="#job-experience">Job Experience</a>
+        </li>
+        <li>
+          <a href="#contact-me">Contact Me</a>
+        </li>
+        <li>
+          <a id="toggler">Theme</a>
+        </li>
+      </ul>
+      <div class="content">
+        <h2 id="about-me">About Me</h2>
+        <div class="introduction">
+          <p class="text" data-info>
+            Hi! I'm a Full Stack Developer
+            <a href="https://upscalixcom.au/"><code>@Upscalix</code></a
+            >. Been working as a Mobile Developer for 1 year and been a Full
+            Stack Developer since June 2022.
+          </p>
+          <video
+            src="https://www.dropbox.com/s/f0hlwczrp8rkias/%E3%82%80%EF%BC%81%E3%81%AA%E3%81%AB%E3%82%84%E3%81%A4%EF%BC%81%EF%BC%81%EF%BC%81%E3%80%90%E3%82%AE%E3%83%AA%E3%82%AE%E3%83%AA%E3%82%8F%E3%82%8B%E3%81%8F%E3%81%AA%E3%81%84%E3%82%8F%E3%81%9F%E3%82%81%E3%80%91%20%23%E3%82%AE%E3%83%AA%E3%82%8F%E3%82%8B.mp4?dl=1"
+            poster="https://i.ytimg.com/an_webp/788Z3wnh3y0/mqdefault_6s.webp?du=3000&sqp=CPuOoJoG&rs=AOn4CLDkzVvuNIbRbt6RKsOAByicqo1ujw"
+            width="300"
+            preload="none"
+            controls
+            muted
+          ></video>
+        </div>
+        <h2 id="job-experience">Job Experience</h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th rowspan="2">#</th>
+                <th rowspan="2">Role</th>
+                <th rowspan="2">Company</th>
+                <th colspan="2">Period</th>
+              </tr>
+              <tr>
+                <th>Start</th>
+                <th>End</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-texts>1</td>
+                <td data-texts>Lead Programmer</td>
+                <td data-texts>Aristotell</td>
+                <td data-texts>2018</td>
+                <td data-texts>2022</td>
+              </tr>
+              <tr>
+                <td data-texts>2</td>
+                <td data-texts>Mobile Developer</td>
+                <td data-texts>Upscalix</td>
+                <td data-texts>2021</td>
+                <td data-texts>2022</td>
+              </tr>
+              <tr>
+                <td data-texts>3</td>
+                <td data-texts>Full Stack Developer</td>
+                <td data-texts>Upscalix</td>
+                <td data-texts>2022</td>
+                <td data-texts>Present</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 id="contact-me">Contact Me</h2>
+        <div class="form-container" data-texts>
+          <p>
+            Mail me:
+            <code>
+              <a href="mailto:firdaus.sati51@gmail.com">@Firdaus Sati</a></code
+            >
+          </p>
+          <form>
+            <div>
+              <label for="name">Masukan Nama</label>
+              <br /><input id="name" name="name" type="text" />
+            </div>
+            <div>
+              <br />Sudah membuka LinkedIn saya?
+              <br />
+              <div class="radio-checkbox">
+                <input type="radio" name="sudah" />
+                <label for="sudah">Sudah</label>
+              </div>
+              <div class="radio-checkbox">
+                <input type="radio" name="belum" />
+                <label for="belum">Belum</label>
+              </div>
+            </div>
+            <div>
+              <br />Want to connect with me with?
+              <br />
+              <div class="radio-checkbox">
+                <input type="checkbox" name="linkedin" />
+                <label for="linkedin">Linkedin</label>
+              </div>
+              <div class="radio-checkbox">
+                <input type="checkbox" name="email" />
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <br />
+            <button>Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
